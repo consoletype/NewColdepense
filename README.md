@@ -7,11 +7,11 @@ Elle permet de **suivre, gérer et organiser les dépenses** au sein d’un grou
 
 ## Fonctionnalités principales
 
--   Création de comptes utilisateurs
--   Authentification (connexion / déconnexion)
--   Création et gestion de groupes
--   Suivi des dépenses par utilisateur et par groupe
--   Calcul des soldes entre membres (à venir)
+- Création de comptes utilisateurs
+- Authentification (connexion / déconnexion)
+- Création et gestion de groupes
+- Suivi des dépenses par utilisateur et par groupe
+- Calcul des soldes entre membres (à venir)
 
 ---
 
@@ -20,7 +20,7 @@ Elle permet de **suivre, gérer et organiser les dépenses** au sein d’un grou
 1. **Cloner le dépôt**
 
 ```bash
-    git clone https://github.com/Adama345/typescriptconsole.git
+    git clone https://github.com/consoletype/NewColdepense
 
     cd typescriptconsole
 ```
