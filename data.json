@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1747129917206,
+      "nom": "dolo",
+      "prenom": "oumar",
+      "telephone": "93761029",
+      "password": "dolo",
+      "email": "dolooumar60@gmail.com"
+    },
+    {
+      "id": 1747132931137,
+      "nom": "adama",
+      "prenom": "Dembele",
+      "telephone": "94907946",
+      "password": "adama",
+      "email": "assimtrap@gmail.com"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1747129978998,
+      "nom": "dol",
+      "description": "fghjk",
+      "membreId": [
+        1747132931137,
+        1747129917206
+      ],
+      "chefDeGroupe": 1747132931137
+    },
+    {
+      "id": 1747134986176,
+      "nom": "sssdh",
+      "description": "lair",
+      "membreId": [
+        1747129917206,
+        1747132931137
+      ],
+      "chefDeGroupe": 1747129917206
+    }
+  ],
+  "depenses": [
+    {
+      "id": 1747131278060,
+      "nom": "sdsdsdds",
+      "montant": 2,
+      "date": "2025-05-13T10:14:38.060Z",
+      "chefDeGroupe": 1747129917206,
+      "groupeId": 1747129978998,
+      "membreId": []
+    },
+    {
+      "id": 1747132155101,
+      "nom": "RRTRT",
+      "montant": 2,
+      "date": "2025-05-13T10:29:15.101Z",
+      "chefDeGroupe": 1747129917206,
+      "groupeId": 1747129978998,
+      "membreId": []
+    },
+    {
+      "id": 1747134685267,
+      "nom": "dhdh",
+      "montant": 29000,
+      "date": "2025-05-13T11:11:25.267Z",
+      "chefDeGroupe": 1747132931137,
+      "groupeId": 1747129978998,
+      "membreId": [
+        1747132931137
+      ]
+    },
+    {
+      "id": 1747136373081,
+      "nom": "moussa",
+      "montant": 50000,
+      "date": "2025-05-13T11:39:33.081Z",
+      "chefDeGroupe": 1747132931137,
+      "groupeId": 1747129978998,
+      "membreId": [
+        1747129917206,
+        1747132931137
+      ]
+    }
+  ],
+  "Rapport": [
+    {
+      "id": 1747132080177,
+      "periode": "2025-05-13T10:28:00.177Z",
+      "description": "Rapport hebdomadaire du 06/05/2025 au 13/05/2025",
+      "membreId": [
+        1747129917206
+      ],
+      "chefDeGroupe": 1747129917206
+    },
+    {
+      "id": 1747133151193,
+      "periode": "2025-05-13T10:45:51.193Z",
+      "description": "Rapport hebdomadaire du 06/05/2025 au 13/05/2025",
+      "membreId": [
+        1747132931137
+      ],
+      "chefDeGroupe": 1747132931137
+    },
+    {
+      "id": 1747211806313,
+      "periode": "2025-05-14T08:36:46.313Z",
+      "description": "Rapport hebdomadaire du 07/05/2025 au 14/05/2025",
+      "membreId": [
+        1747129917206,
+        1747132931137
+      ],
+      "chefDeGroupe": 1747129917206
+    }
+  ],
+  "Payer": [
+    {
+      "id": 1747132053698,
+      "date": "2025-05-13T10:27:33.698Z",
+      "sold": 2000,
+      "membreId": 1747129917206,
+      "depenseId": 1747131278060,
+      "statut": "validé",
+      "methode": "mobile_money"
+    },
+    {
+      "id": 1747136206177,
+      "date": "2025-05-13T11:36:46.177Z",
+      "sold": 20000,
+      "membreId": 1747132931137,
+      "depenseId": 1747134685267,
+      "statut": "validé",
+      "methode": "espèces"
+    },
+    {
+      "id": 1747136389802,
+      "date": "2025-05-13T11:39:49.802Z",
+      "sold": 20000,
+      "membreId": 1747132931137,
+      "depenseId": 1747136373081,
+      "statut": "validé",
+      "methode": "espèces"
+    },
+    {
+      "id": 1747136439919,
+      "date": "2025-05-13T11:40:39.919Z",
+      "sold": 20000,
+      "membreId": 1747129917206,
+      "depenseId": 1747136373081,
+      "statut": "validé",
+      "methode": "espèces"
+    },
+    {
+      "id": 1747137004176,
+      "date": "2025-05-13T11:50:04.176Z",
+      "sold": 1000,
+      "membreId": 1747132931137,
+      "depenseId": 1747136373081,
+      "statut": "validé",
+      "methode": "mobile_money"
+    },
+    {
+      "id": 1747211772253,
+      "date": "2025-05-14T08:36:12.253Z",
+      "sold": 200,
+      "membreId": 1747129917206,
+      "depenseId": 1747136373081,
+      "statut": "validé",
+      "methode": "mobile_money"
+    }
+  ]
+}

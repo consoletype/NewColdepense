@@ -1,0 +1,42 @@
+{
+  "name": "typescriptconsole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adama345/typescriptconsole.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Adama345/typescriptconsole/issues"
+  },
+  "homepage": "https://github.com/Adama345/typescriptconsole#readme",
+  "devDependencies": {
+    "@types/boxen": "^2.1.0",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^22.15.12",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdfkit": "^0.13.9",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.6.0",
+    "node-notifier": "^10.0.1",
+    "nodemailer": "^7.0.3",
+    "ora": "^8.2.0",
+    "pdfkit": "^0.17.1"
+  }
+}
